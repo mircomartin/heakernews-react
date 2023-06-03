@@ -1,0 +1,66 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: #111;
+  background-color: #fff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  border-bottom: 1px solid #eee;
+  gap: 16px;
+  align-items: center;
+  padding: 10px 25px;
+}
+.header a {
+  text-decoration: none;
+  color: #374151;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+.articleHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+  line-height: 24px;
+}
+.articleFooter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  line-height: 24px;
+  font-size: 12px;
+}
+.articleStoryTitle {
+  text-decoration: none;
+  color: #111;
+  font-size: 18px;
+}
+.articleStoryLink {
+  text-decoration: none;
+  color: #828282;
+  font-size: 14px;
+}
+.smallLinks {
+  color: #828282;
+  text-decoration: none;
+  font-size: 12px;
+}
+.smallLinks:hover {
+  text-decoration: underline;
+}
